@@ -1,0 +1,7 @@
+*.so
+logger_app
+test_logger
+test_*.txt
+*.log
+*~
+\#*\#
