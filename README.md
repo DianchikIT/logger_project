@@ -84,11 +84,17 @@ LD_LIBRARY_PATH=. ./logger_app app.log INFO
 
 ### Ожидаемый вывод:
 Запуск тестов библиотеки Logger
+
 test_levelToString — пройден
+
 Запуск: test_log_message
+
 test_log_message — пройден
+
 Запуск: test_log_filter
+
 test_log_filter — пройден
+
 Все тесты успешно пройдены!
 
 ## Очистка проекта от всех файлов сборки:
@@ -96,14 +102,23 @@ make clean
 
 ## Структура проекта
 logger_project/
+
 ├── include/              # Заголовочные файлы
+
 │   └── logger.h
+
 ├── src/                  # Исходный код
+
 │   ├── logger.cpp        # Реализация логгера
+
 │   └── main.cpp          # Консольное приложение
+
 ├── tests/                # Тесты
+
 │   └── test_logger.cpp   # Юнит-тесты
+
 ├── Makefile              # Скрипт сборки
+
 └── README.md             # Документация
 
 
